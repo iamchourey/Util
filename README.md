@@ -28,13 +28,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Screenshots
 
-[![home.png](https://i.postimg.cc/fbLyWNrW/home.png)](https://postimg.cc/qNP4Q9rW)
+[![first.png](https://i.postimg.cc/05ds44VV/first.png)](https://postimg.cc/8s59JZQv)
 
 [![login.png](https://i.postimg.cc/7Zc87rLZ/login.png)](https://postimg.cc/bZQBcMb7)
 
 [![signup.png](https://i.postimg.cc/FHYwhCx5/signup.png)](https://postimg.cc/xXS6RR7t)
 
-[![first.png](https://i.postimg.cc/05ds44VV/first.png)](https://postimg.cc/8s59JZQv)
+[![home.png](https://i.postimg.cc/fbLyWNrW/home.png)](https://postimg.cc/qNP4Q9rW)
 
 [![Task.png](https://i.postimg.cc/NfMzxCS9/Task.png)](https://postimg.cc/14kBmB9s)
 
