@@ -1,0 +1,10 @@
+
+mat-expansion-panel-header{
+  background-color: grey;
+}
+.abc{
+  color: grey;
+}
+mat-expansion-panel:hover{
+  background-color:cadetblue;
+}

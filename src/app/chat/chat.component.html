@@ -1,0 +1,50 @@
+
+<div class="container-fluid">
+  <app-header></app-header>
+  <hr>
+  <p>Choose Room...</p>
+  <div class="input-group" style="display: flex;">
+          <input style="float:left;" name="roomInput" (keyup.enter)="join()" id="roomInput"  [(ngModel)]="room">
+
+      <div class="input-group-append" style="float: right;" id="">
+
+              <button type="button" class="" (click)="join()">Join</button>
+              <button type="button" class="" (click)="leave()">Leave</button>
+      </div>
+  </div>
+
+  <div class="roomPara">
+    <p>{{roomParaText}}</p>
+  </div>
+
+  <div class="row">
+      <div class="well" id="main-chat" style="height:350px; padding:10px;">
+          <div *ngFor="let item of messageArray" class="Messages">
+                <span><strong>{{item.username}}</strong> : <span class="other"><small>{{item.updated_at | date: 'medium' }}</small></span></span>
+                  <div>
+                    {{item.message}}
+                  </div>
+                  <hr>
+          </div>
+      </div>
+  </div>
+  <div class="row" style="display: flex;">
+      <div class="" >
+          <input type="text" (keyup.enter)="sendMessage()" class="inputMessage" placeholder="Type Messages..." [(ngModel)]="messageText">
+      </div>
+      <div class="button" style="float: right;">
+              <button type="button" class="" (click)="sendMessage()">Send</button>
+      </div>
+  </div>
+</div>
+
+
+<!---
+  <div class="input-group">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username with two button addons" aria-describedby="button-addon4">
+  <div class="input-group-append" id="button-addon4">
+    <button class="btn btn-outline-secondary" type="button">Button</button>
+    <button class="btn btn-outline-secondary" type="button">Button</button>
+  </div>
+</div>
+-->

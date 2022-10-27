@@ -1,0 +1,50 @@
+
+body{
+  background-color: #303036;
+}
+
+p:hover{
+  color: cadetblue;
+}
+
+p{
+  color: grey;
+  text-align: center;
+  font-size: small;
+  -webkit-app-region:drag;
+}
+.def-icon{
+  margin:0;
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  /*background-color: white;*/
+  position: fixed;
+  margin-left: 0px;
+  margin-bottom: 0px;
+
+}
+#gobtn1,#gobtn2,#gobtn3,#gobtn4,#gobtn5,#gobtn6,#gobtn7,#gobtn8,#gobtn9{
+  height: 42px;
+  width: 42px;
+  border: none;
+  border-radius: 50%;
+  margin-left: 4px;
+  margin-top: 4px;
+  outline:none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  background: rgba(226, 226, 226, 0.25);
+
+  color: black;
+
+}
+#gobtn1:hover,#gobtn2:hover,#gobtn3:hover,#gobtn4:hover,#gobtn5:hover,#gobtn6:hover,#gobtn7:hover,#gobtn8:hover,#gobtn9:hover{
+
+  background-color: cadetblue;
+  color: white;
+}
+
+

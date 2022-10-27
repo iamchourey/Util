@@ -1,0 +1,69 @@
+
+
+p{
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+label{
+  color:cadetblue;
+}
+input{
+  color:black;
+  border-radius: 20px;
+  width: 100px;
+}
+button{
+  color:white ;
+  background-color:grey;
+  margin-left: 1rem;
+  border-radius: 25px;
+}
+button:hover{
+  background-color: cadetblue;
+}
+.well{
+  max-width: 275px;
+  width: 275px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+span{
+  color: cadetblue;
+}
+.Messages{
+  color: cadetblue;
+}
+
+#main-chat::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: cadetblue;
+}
+
+#main-chat::-webkit-scrollbar
+{
+    height: 8px;
+    margin-top:0;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#main-chat::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+    background-color: white;
+}
+.roomPara{
+  text-align: center;
+  color: white;
+  margin-top: 5px;
+}
+
+.inputMessage{
+  width: 200px;
+  margin-left: 10px;
+  border-radius: 20px;
+}

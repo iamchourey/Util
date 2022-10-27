@@ -1,0 +1,12 @@
+button{
+  margin-top: 1rem;
+  background-color: grey;
+}
+
+button:hover{
+  background-color: cadetblue;
+}
+
+label{
+  color:grey;
+}

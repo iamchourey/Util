@@ -1,0 +1,84 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.abc{
+  background-color: #303036;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+.unSelectable{
+  pointer-events: none;
+  cursor: default;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+
+.windowTitle{
+	padding:5px;
+	height:auto;
+	display:inline-block;
+}
+
+
+.windowControls{
+	float:right;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	width:50px;
+}
+
+.windowControls button{
+	outline:0;
+	border:0;
+  background:#303036;
+  color: grey;
+}
+
+.titleBar{
+	display:grid;
+  grid-template-columns: 1fr auto;
+  max-width: 280px;
+}
+
+#quit{
+  color: salmon;
+}
+
+.titleBarStyle{
+	background:#303036;
+	columns: #303030;;
+	font-size:10pt;
+}
+
+
+.windowControlsStyle{
+	background: none;
+
+
+}
+
+.windowControlsStyle button:hover{
+	background:cadetblue;
+}
+
+.preventSelect{
+	user-select: none;
+	-webkit-touch-callout:none;
+  -webkit-user-select:none;
+  color: grey;
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+.draggable{
+	-webkit-app-region: drag;
+}

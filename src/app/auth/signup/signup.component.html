@@ -1,0 +1,45 @@
+
+ <div class="img">
+  <img class="img-responsive" src="assets/images/users.png" id="icon" alt="User Icon" />
+ </div>
+  <div class="SignUp">
+
+    <h3>Sign Up</h3>
+
+    <!-- Login Form -->
+    <form (submit)="onSignup(signupForm)" #signupForm="ngForm">
+       <div class="textbox">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+         <input type="email"
+               name="enteredemail"
+               placeholder="E-mail"
+               ngModel
+               #emailInput="ngModel">
+       </div>
+
+       <div class="textbox">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <input type="text"
+              name="enteredusername"
+              placeholder="Username"
+              ngModel
+              #usernameInput="ngModel">
+       </div>
+
+       <div class="textbox">
+        <i class="fa fa-unlock" aria-hidden="true"></i>
+        <input type="password"
+               name="enteredpassword"
+               placeholder="password"
+               ngModel
+               #passwordInput="ngModel">
+       </div>
+      <input class="submit" type="submit" value="Sign up">
+    </form>
+
+    <div class="backToLogin">
+      <a routerLink="/">Go to login</a>
+    </div>
+
+  </div>
+

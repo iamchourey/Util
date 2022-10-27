@@ -1,0 +1,68 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.loginPage{
+  width: 250px;
+  position: absolute;
+  margin-left: 10px;
+
+}
+img{
+  width: 290px;
+  height: 250px;
+}
+h3{
+  color:salmon;
+  font-size: 30px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+img{
+  margin-bottom: 20px;
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid cadetblue;
+  display: flex;
+}
+
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+  color: white;
+}
+
+.textbox input{
+  border: none;
+  outline: none;
+  background:none;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  float: left;
+  margin: 0 10px;
+}
+
+.submit{
+  width: 100%;
+  background: none;
+  border: 2px solid cadetblue;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 12px 0;
+}
+
+a{
+  color: cadetblue;
+}
+
+.toSignUp{
+  color: cadetblue;
+}

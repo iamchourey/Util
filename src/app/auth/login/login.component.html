@@ -1,0 +1,54 @@
+<div class="">
+  <img src="assets/images/single_user.png" id="icon" alt="User Icon" />
+</div>
+<div class="loginPage">
+
+    <h3>Login</h3>
+
+    <!-- Login Form -->
+    <form (submit)="onLogin(loginform)" #loginform="ngForm">
+      <div class="textbox">
+        <i class="fa fa-user" aria-hidden="true"></i>
+        <input type="text"
+               name="loginUsername"
+               placeholder="Username"
+               ngModel
+               #inputusername="ngModel"
+               name="enteredusername">
+      </div>
+      <div class="textbox">
+        <i class="fa fa-unlock" aria-hidden="true"></i>
+       <input type="password"
+              name="loginPassword"
+              placeholder="password"
+              ngModel
+              #inputpassword="ngModel"
+              name="enteredpassword">
+      </div>
+
+      <input class="submit" type="submit" value="LOG IN">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div class="forgetPassword">
+      <a routerLink="/password-reset">Forgot Password?</a>
+    </div>
+
+     <div class="toSignUp">
+      Don't have a account?<a routerLink="/signup"> SignUp here</a>
+     </div>
+</div>
+
+
+
+
+
+    <!-- Login Form
+    <form (submit)="onLogin(loginform)" #loginform="ngForm">
+      <input type="text" id="login" class="fadeIn second" name="loginUsername" placeholder="Username" ngModel #inputusername="ngModel" name="enteredusername">
+      <input type="password" id="password" class="fadeIn third" name="loginPassword" placeholder="password" ngModel #inputpassword="ngModel" name="enteredpassword">
+
+      <input type="submit" class="fadeIn fourth" value="LOG IN">
+    </form>
+
+    -->

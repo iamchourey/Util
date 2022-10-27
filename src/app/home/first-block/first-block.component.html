@@ -1,0 +1,23 @@
+<div class="home">
+  <div style="display:inline;">
+     <p style="float:left;">Welcome {{username}}</p>
+     <p class="date" style="float: right;">{{ date }}</p>
+  </div>
+<div id="block-1">
+  <input type="{{isPassword?'password':'text'}}" id="text-1" class="textall"  cols="1" rows="1" spellcheck="false" wrap="off" onclick="this.focus();this.select()" >
+
+  <input type="{{isPassword?'password':'text'}}" id="text-2"  class="textall" cols="1" rows="1" spellcheck="false" wrap="off" onclick="this.focus();this.select()" >
+
+  <input type="{{isPassword?'password':'text'}}" id="text-3"  class="textall" cols="1" rows="1" spellcheck="false" wrap="off" onclick="this.focus();this.select()" >
+
+  <input type="{{isPassword?'password':'text'}}" id="text-4"  class="textall" cols="1" rows="1" spellcheck="false" wrap="off" onclick="this.focus();this.select()" >
+
+  <input type="{{isPassword?'password':'text'}}" id="text-5"  class="textall" cols="1" rows="1" spellcheck="false" wrap="off" onclick="this.focus();this.select()" >
+
+  <img id="hide" src="../../../assets/images/hide.png"  >
+  <label class="switch">
+   <input type="checkbox" (change)="checkBox()">
+   <div class="slider"></div>
+ </label>
+</div>
+

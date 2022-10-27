@@ -1,0 +1,31 @@
+.custom-dropzone{
+  height: 250px;
+  background-color: #303036;
+}
+ngx-dropzone-label{
+  color: salmon;
+}
+ngx-dropzone-preview{
+  display: block;
+  size: 50px 50px;
+}
+
+.custom-dropzone::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: cadetblue;
+}
+
+.custom-dropzone::-webkit-scrollbar
+{
+    height: 8px;
+    margin-top:0;
+    background-color: salmon;
+    border-radius: 10px;
+}
+
+.custom-dropzone::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+    background-color:salmon;
+}

@@ -1,0 +1,12 @@
+<div class="container">
+<mat-accordion multi="false" *ngIf="tasks.length > 0 &&  userIsAuthenticated ">
+  <mat-expansion-panel *ngFor="let task of tasks">
+    <mat-expansion-panel-header >
+      {{ task.title }}
+    </mat-expansion-panel-header>
+     <p>{{ task.content }}</p>
+    <button *ngIf="task.creator===userId" class="btn btn-danger btn-sm" (click)="onDelete(task.id)">Delete task</button>
+  </mat-expansion-panel>
+</mat-accordion>
+<p class="info-text mat-body-1 abc" *ngIf="tasks.length <= 0">No tasks added!</p>
+</div>
